@@ -1,0 +1,80 @@
+#result{
+    display: none;
+    background-color : whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#shareResult{
+    background-color : whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resultName
+
+.resultDesc{
+    font-size: 20px;
+}
+
+.kakao{
+    color: white;
+    background-color: #FEE500;
+}
+
+.gohome{
+    color: white;
+    background-color: #71DDD7;
+}
+
+.gohome:hover, .gohome:focus{
+    color: white;
+    background-color: #71DDD7;
+}
+
+#contact{
+    padding: 0rem 0;
+    padding-top: 5rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    #SECTION09{ --bs-gutter-x: 0rem; }
+}
+
+
+#SECTION09 .title-text { 
+    font-size: 25px;
+    color: #006BEF;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: system-ui; }
+
+
+#SECTION09 .bottom_img{ margin-top: 110px; }
+
+#SECTION09 .title-text strong { font-weight: 500; }
+@media only screen and (max-width: 768px) {
+    #SECTION09 .title-text { font-size: 25px; color:#006BEF; text-align: center; }
+}
+
+/* 스토어 링크 이미지 */
+#SECTION09 .store-link-box { margin-top: 57px; width: 100%; }
+#SECTION09 .store-link-box img{ max-width: 217px;  }
+#SECTION09 .store-link-box li { display: inline-block; text-align: center; }
+
+@media only screen and (max-width: 609px) {
+    #SECTION09 .store-link-box { margin-top: 0px; width: 100%; }
+}
+@media only screen and (max-width: 768px) {
+    #SECTION09 .store-link-box { margin-top: 58px; width: 100%; }
+    #SECTION09 .store-link-box ul { text-align: center; margin: 0 auto; padding-left : 0px}
+    #SECTION09 #store-btn-ul li{ padding: 10px 0 0 0; }
+    #SECTION09 #store-btn-ul img{ width: 400px; }
+    #SECTION09 img{ margin-top: 10px; }
+        
+}

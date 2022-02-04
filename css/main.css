@@ -1,0 +1,155 @@
+#main{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 70px;
+    background-image: url('../img/main_bottom.png');
+    background-repeat : no-repeat;
+    background-size : auto;
+    background-position: bottom;
+    height: 650px;
+}
+
+@media (max-width: 375px) {
+    #main {
+            text-align: center;
+            vertical-align: middle;
+            background-image: url('../img/main_bottom_m.png');
+            margin-top: 100px;
+            background-image: #FFFFFF;
+            height: 700px;
+    }
+  }
+
+  @media (max-width: 476px) {
+    #main {
+            text-align: center;
+            vertical-align: middle;
+            background-image: url('../img/main_bottom_m.png');
+            margin-top: 70px;
+            background-image: #FFFFFF;
+            height: 700px;
+    }
+  }
+
+#maincontents{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#subcontents{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 50px;
+    color: #3178FF;
+}
+
+#subcontents_share{
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 60px;
+    color: #8397BB;
+}
+
+@media (max-width: 375px) {
+    #subcontents_share{
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 60px;
+        color: #8397BB;
+    }
+  }
+
+.button_start {
+
+  align-items: center;
+  background-color: #3178FF;
+  border: 0;
+  border-radius: 100px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+    .button_start:hover,
+    .button_start:focus { 
+    background-color: #a1c2ff;
+    color: #ffffff;
+    }
+
+    .button_start:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+    }
+
+    .button_start:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+    }
+
+.button_social {
+
+    align-items: center;
+    background-color: #788DB4;
+    border: 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 300px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+    
+    .button_social:hover,
+    .button_social:focus { 
+        background-color: #a1c2ff;
+        color: #ffffff;
+    }
+    
+    .button_social:active {
+        background: #09223b;
+        color: rgb(255, 255, 255, .7);
+    }
+    
+    .button_social:disabled { 
+        cursor: not-allowed;
+        background: rgba(0, 0, 0, .08);
+        color: rgba(0, 0, 0, .3);
+    }
